@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  background-color: rgba(0, 25, 76);
+  color: #fff;
+  height: 70px;
+  width: 50%;
+  margin-left: 340px;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.headercolor{
+  background-color: rgba(0, 25, 76);
+}
+
+.headermain {
+
+font-size: 26px;
+font-weight: 700;
+
+}
+
+.button {
+  margin-left: 70px;
+  background-color:black;
+  width: 70px;
+  text-align: center;
+  padding: 20px;
+}
