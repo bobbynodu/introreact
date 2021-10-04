@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function Newsnotification() {
+export default function Newsnotification(props) {
     return (
-        <div>
-            news notification
+        <div className="notification">
+            <span className="subnottopic">{ props.topic }</span> { props.body }
         </div>
+        
     )
 }

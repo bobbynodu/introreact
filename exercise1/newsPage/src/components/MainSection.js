@@ -1,9 +1,12 @@
 import React from 'react'
 
-export default function MainSection() {
+export default function MainSection(props) {
     return (
-        <div>
-            main section
+        <div className="mainSection">
+            <div className="mainSectionHeader">{ props.header }</div>
+            <div className="mainSectionBody">{ props.body }</div>
+            <div className="mainSectionTime">{props.language} { props.time}</div>
+        
         </div>
     )
 }

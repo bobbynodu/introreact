@@ -1,12 +1,16 @@
+body{
+  background-color:rgb(238, 235, 235)
+}
 .header {
   display: flex;
   background-color: rgba(0, 25, 76);
   color: #fff;
   height: 70px;
-  width: 50%;
-  margin-left: 340px;
+  width: 70%;
+  margin-left: 200px;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 15px;
   
 }
 
@@ -16,15 +20,81 @@
 
 .headermain {
 
-font-size: 26px;
+font-size: 24px;
 font-weight: 700;
 
 }
 
 .button {
   margin-left: 70px;
-  background-color:black;
+  background-color:white;
+  color: black;
   width: 70px;
   text-align: center;
+  padding-bottom: 15px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.notification{
+  background-color: rgba(65, 150, 164);
+  color: white;
   padding: 20px;
+  margin-bottom: 5px;
+  width: 70%;
+  margin-left: 200px;
+}
+  
+.subnottopic{
+  font-size:18px;
+  font-weight:700;
+  
+}
+
+.mainSection{
+  background-color: white;
+  float: left;
+  margin-top: 10px;
+  padding: 10px;
+  width: 42%;
+  margin-left: 200px;
+}
+
+.mainSectionHeader{
+  font-size:26px;
+  font-weight:700;
+  padding-bottom: 10px;
+}
+
+.mainSectionTime{
+font-size:12px;
+font-weight:700;
+padding-top: 5px;
+}
+
+.sidesection{
+  display: flex;
+  background-color:white;
+  margin-left: 770px;
+  margin-top: 15px;
+  width: 27%;
+  width: 27.2%;
+  padding: 5px;
+}
+
+.sidesectionNum{
+  font-weight: 700;
+  font-size: 24px;
+  color:rgba(65, 150, 164);
+}
+
+.sidesectionTitle{
+  padding-top: 3px;
+  padding-left: 5px;
+  font-weight: 700;
+}
+
+.sidesectionStory{
+  font-weight: normal;
+  font-size: 14px;
 }
